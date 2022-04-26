@@ -2,7 +2,7 @@ package oopSoyutlamaOdev;
 
 public class InstructorManager extends UserManager{
 	
-	//Bu class'da instructor'a ait islemler yapilmakta. Override edilen metodlar student'da da bulunan ortak metodlardir.
+	//Bu class'da instructor'a ait islemler yapilmakta. Override edilen metodlar UserManager'da da bulunan ortak metodlardir.
 	
 	@Override
 	public void login(User user) {
